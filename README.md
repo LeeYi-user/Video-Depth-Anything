@@ -114,6 +114,9 @@ python3 run.py --input_video ./assets/example_videos/davis_rollercoaster.mp4 --o
 # For metric depth
 python3 run.py --input_video ./assets/example_videos/davis_rollercoaster.mp4 --output_dir ./outputs --encoder vitl --metric
 ```
+```bash
+python run.py --run_keyframe_mode --key_frame frame_015314 --fps 29.97 --right_offset 81 --duration 2.0 --left_dir assets/frames_left --right_dir assets/frames_right --output_dir outputs/keyframe_results
+```
 
 Options:
 - `--input_video`: path of input video
